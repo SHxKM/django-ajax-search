@@ -1,0 +1,8 @@
+.idea
+db.sqlite3
+Pipfile.lock
+*.pyc
+*.idea
+*__pycache__*
+.vscode
+*/scratch.py

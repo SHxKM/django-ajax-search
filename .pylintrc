@@ -1,0 +1,3 @@
+[MASTER]
+load-plugins=pylint_django
+disable=missing-docstring, invalid-name
