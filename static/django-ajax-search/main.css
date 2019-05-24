@@ -7,7 +7,7 @@ nav {
     to {opacity: 0.0;}
   }
   
-.blink{
+.blink {
     text-decoration: blink;
     animation-name: blinker;
     animation-duration: 0.6s;
