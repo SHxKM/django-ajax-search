@@ -1,6 +1,6 @@
 ### Incremental (as-you-type) search with Django and Ajax
 
-source code for my tutorial.
+source code for my tutorial at https://openfolder.sh/django-tutorial-as-you-type-search-with-ajax
 
 #### Installing
 
