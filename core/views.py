@@ -17,7 +17,10 @@ def artists_view(request):
         artists = Artist.objects.all()
 
     ctx["artists"] = artists
-    if request.is_ajax():
+    does_req_accept_json = request.accepts("application/json")
+    is_ajax_request = request.headers.get("x-requested-with") == "XMLHttpRequest" and does_req_accept_json
+
+    if is_ajax_request:
 
         html = render_to_string(
             template_name="artists-results-partial.html", context={"artists": artists}
